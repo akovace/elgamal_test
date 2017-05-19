@@ -13,9 +13,11 @@ unesi mod: 2579
 unesi g: 2
 unesi tajnu virujednost x: 765
 izradjeno
+
 (env-dipl) antun@antun-HP:~/Dokumenti/Diplomski_rad/elgamal$ python kriptiraj.py 
 unesi poruku: 1299
 {'b': 2454, 'a': 465}
+
 (env-dipl) antun@antun-HP:~/Dokumenti/Diplomski_rad/elgamal$ python dekriptiraj.py 
 unesi broj a:465
 unesi broj b:2454
