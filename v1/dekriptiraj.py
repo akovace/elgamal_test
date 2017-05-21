@@ -3,6 +3,8 @@ import json
 a = int(input("unesi broj a:"))
 b = int(input("unesi broj b:"))
 
+# https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm
+# ----
 def egcd(a, b):
     if a == 0:
         return (b, 0, 1)
@@ -16,6 +18,7 @@ def modinv(a, m):
         raise Exception('modular inverse does not exist')
     else:
         return x % m
+# ----
 
 def citaj_dat():
     with open('privatni_kljuc', 'r') as f:

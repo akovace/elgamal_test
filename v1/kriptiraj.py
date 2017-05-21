@@ -1,5 +1,6 @@
 import json
-from slucajni_broj import sample
+
+from v2.slucajni_broj import sample
 
 poruka = int(input('unesi poruku: '))
 
@@ -9,7 +10,7 @@ def citaj_dat():
     return(array)
 
 def slucajni_broj():
-    sl_br = sample(range(1000), k=1)
+    sl_br = sample(range(citaj_dat()[0] - 1), k=1)
     return sl_br[0]
 
 def kriptiraj():
