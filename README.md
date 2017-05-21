@@ -33,8 +33,11 @@ rezultat glasi:  465(2454^765)^-1 mod 2579= 1299
 
 Primjer:
 (env-dipl) antun@antun-HP:~/Dokumenti/Diplomski_rad/elgamal/v2$ python kriptiraj.py
+
 unesi poruku: Bok, ja sam Antun!
+
 (env-dipl) antun@antun-HP:~/Dokumenti/Diplomski_rad/elgamal/v2$ python dekriptiraj.py
+
 Bok, ja sam Antun!
 
 Šifrat u datoteci poruka izgleda ovako:
